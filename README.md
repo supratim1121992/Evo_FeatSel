@@ -6,7 +6,7 @@ This function utilizes the optimisation capability of Genetic Algorithm to selec
 
 ![GA_fig](https://github.com/supratim1121992/Evo_FeatSel/blob/main/GA_Summary.jpg?raw=true)
 
-**Picture Courtesy** Serg Masís, Data Scientist (https://serg.ai)
+**Picture Courtesy:** Serg Masís, Data Scientist (https://serg.ai)
 
 The function currently supports feature selection for both regression and classification tasks. For regression, both a parametric linear regression model or a non-parametric and non-linear Random Forest model can be used. For classification cases, feature selection is performed using a Random Forest model.
 
