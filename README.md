@@ -2,7 +2,7 @@
 
 ## Feature selection using Genetic Algorithm
 
-This function utilizes the optimisation capability of Genetic Algorithm to select the best set of minimal features from a dataset based on evaluation metrics generated from a model on a held-out set. The selected features are then used to train a final model which is returned as an output.
+This function utilizes the optimisation capability of Genetic Algorithm to select the best set of minimal features from any dataset based on evaluation metrics generated from a model on a held-out (validation) set. The selected features are then used to train a final model which is returned as an output along with relevant details.
 
 ![GA_fig](https://github.com/supratim1121992/Evo_FeatSel/blob/main/GA_Summary.jpg?raw=true)
 
