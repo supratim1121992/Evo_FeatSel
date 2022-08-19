@@ -27,7 +27,7 @@ The function currently supports feature selection for both regression and classi
  * **Sol_Variables:** Vector with the set of minimum independent variables that resulted in the best model performance.
  * **Predictions:** Vector of predictions generated using the model on the validation set.
  * **Actual:** Vector of actual values in the validation set.
- * **Eval_Res:** Value of the evaluation metric from the best model with selected features.
+ * **Eval_Res:** Value of the evaluation metric from the best model with selected features on the validation set.
  * **Model:** The model object trained on the selected features.
  * **Model_Summary:** Summary of the above model object.
  * **GA_Model:** The GA model object run as part of the function.
