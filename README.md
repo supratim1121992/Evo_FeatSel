@@ -4,7 +4,9 @@
 
 This function utilizes the optimisation capability of Genetic Algorithm to select the best set of minimal features from a dataset based on evaluation metrics generated from a model on a held-out set. The selected features are then used to train a final model which is returned as an output.
 
-![GA_fig](https://github.com/supratim1121992/Multilabel-Balancer/blob/main/Sample_Data.png?raw=true)
+![GA_fig](https://github.com/supratim1121992/Evo_FeatSel/blob/main/GA_Summary.jpg?raw=true)
+
+**Picture Courtesy** Serg Masís, Data Scientist (https://serg.ai)
 
 The function currently supports feature selection for both regression and classification tasks. For regression, both a parametric linear regression model or a non-parametric and non-linear Random Forest model can be used. For classification cases, feature selection is performed using a Random Forest model.
 
