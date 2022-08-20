@@ -116,7 +116,7 @@ Evo_FeatSel<-function(Data,Target,Norm = F,Keep = NULL,Ban = NULL,Treat_Out = F,
   if(Maximize == F){
     ga_mod<-ga(type = "binary",fitness = function(x){-fit_func(x)},
                nBits = ncol(dt_out) - length(c(Target,Keep)),popSize = 100,pcrossover = 0.8,
-               pmutation = 0.2,maxiter = 5000,run = 100,monitor = T,
+               pmutation = 0.2,maxiter = 5000,run = 1000,monitor = T,
                seed = 666,parallel = Par,keepBest = T)
   }
   
