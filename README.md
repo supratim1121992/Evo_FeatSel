@@ -25,9 +25,9 @@ The function currently supports feature selection for both regression and classi
  * **Maximize:** `logical` (*Default FALSE*) Whether the evaluation metric should be maximised or minimised to obtain the optimum result. For instance, regression tasks with RMSE would need the evaluation metric to be minimised whereas in classification tasks with accuracy, the evaluation metric would need to be maximised for best results.
  * **Par:** `logical` (*Default TRUE*) Whether or not the function would be run in parallel across the cores present in the system. Parallelisation helps in improving the computation time involved.
  
-**NOTE:** The hyperparameters associated with the GA function can also be modified where the `ga` function is called in the function. Refer to https://cran.r-project.org/web/packages/GA/GA.pdf for details. 
-<br>
-
+**NOTE:** The hyperparameters associated with the GA function can also be modified where the `ga` function is called in the function. Refer to https://cran.r-project.org/web/packages/GA/GA.pdf for details.  
+  
+  
 > **Output:** The function will generate a list with the following components as output:
  * **Sol_Variables:** Vector with the set of minimum independent variables that resulted in the best model performance.
  * **Predictions:** Vector of predictions generated using the model on the validation set.
