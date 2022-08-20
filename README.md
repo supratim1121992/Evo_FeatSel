@@ -42,5 +42,5 @@ The function currently supports feature selection for both regression and classi
  * **Pred_Prob:** (*Generated only in case of classification with RF model*) The predicted probabilities for each class in the target variable from the validation set.
 
 > **Example:** The following code would execute the function on the `iris` dataset.
- `data("iris")<br>
- iris_res<-Evo_FeatSel(Data = iris,Target = "Species",Norm = T,Treat_Out = T,Maximize = T,Eval_Metric = "accuracy")`
+  `data("iris")`
+  `iris_res<-Evo_FeatSel(Data = iris,Target = "Species",Norm = T,Treat_Out = T,Maximize = T,Eval_Metric = "accuracy")`
