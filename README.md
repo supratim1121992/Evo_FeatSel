@@ -40,3 +40,7 @@ The function currently supports feature selection for both regression and classi
  * **Correlation:** (*Generated only in case of LR model*) The Pearson's correlation of each of the selected features with respect to the target variable.
  * **Conf_Matrix:** (*Generated only in case of classification with RF model*) The confusion matrix of predictions made on the validation set.
  * **Pred_Prob:** (*Generated only in case of classification with RF model*) The predicted probabilities for each class in the target variable from the validation set.
+
+> **Example:** The following code would execute the function on the `iris` dataset.
+`data("iris")
+iris_res<-Evo_FeatSel(Data = iris,Target = "Species",Norm = T,Treat_Out = T,Maximize = T,Eval_Metric = "accuracy")`
